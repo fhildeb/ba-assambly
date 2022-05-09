@@ -9,7 +9,7 @@ computer architecture that took place in 2018.
 
 ![i8086 Emulator](./img/screenshot_assably.jpg)
 
-## Used Software
+## Tools
 
 [i8086 Emulator](http://sourceforge.net/projects/i8086emu/)
 
