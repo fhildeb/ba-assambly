@@ -28,6 +28,14 @@ Displays the position of the individual switches on the LED line flashing.
 4. The state of the switches S3 and S4 displayed on the 7-segment display.
 5. Simulation flashing car lights in different variations.
 
+## Session 4: Storage and Display Reads
+
+1. The memory range from 200H to 2FFH is overwritten with the value of the switch
+   and copied over to 300-3FFH.
+2. Program clearing all segments of the 7-segment display.
+3. Shows the values of switches S3 to S0 in the display by having a hex table for digit convertion.
+4. Dice Roll: When switch S0 is on, one digit is visibly but not recognizable counted between 1 and 6. If the switch is off, the display shows the last random value.
+
 ## Tools
 
 - [i8086 Emulator](http://sourceforge.net/projects/i8086emu/): A multi-platform Emulator on SBC-86
