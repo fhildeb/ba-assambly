@@ -1,4 +1,4 @@
-	org 100H       ; Startadresse auf 100 setzen
+	org 100H      ; Startadresse auf 100 setzen
 
 ;----------------------------------------
 
