@@ -42,8 +42,9 @@ clrdisp:
                 POP ax              ; Variablen zurueckschreiben
                 RET
 anz1st:
-                ; Unterprogramm "anz1st" - Anzeige Wert 0-F auf Display-Stelle 0-7
-                ; Uebergabe: <AL> Anzeigewert 0-F, <DX> Displaystelle (oder Portadresse)
+; Unterprogramm "anz1st" - Anzeige Wert 0-F auf Display-Stelle 0-7
+; Uebergabe: <AL> Anzeigewert 0-F, <DX> Displaystelle (oder Portadresse)
+                
                 PUSH ax             ; Werte speichern
                 PUSH bx
 
@@ -58,8 +59,9 @@ anz1st:
                 POP ax
                 RET
 anz2nd:         
-                ; Unterprogramm "anz2nd" - Anzeige Wert 00-FF auf 2 Displaystellen
-                ; Uebergabe: <AL> - Anzeigewert 00-FF, <DX> - linke Displaystelle (oder Adresse)
+; Unterprogramm "anz2nd" - Anzeige Wert 00-FF auf 2 Displaystellen
+; Uebergabe: <AL> - Anzeigewert 00-FF, <DX> - linke Displaystelle (oder Adresse)
+                
                 PUSH ax             ; Register sichern
                 PUSH cx
                 PUSH dx
